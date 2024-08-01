@@ -1,0 +1,149 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>淡水小鎮自遊行</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="Microsoft Theme" content="none, default">
+<meta name="Microsoft Border" content="none, default">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_timelinePlay(tmLnName, myID) { //v1.2
+  //Copyright 1997, 2000 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+  if (myID == tmLn.ID) { //if Im newest
+    setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+    fNew = ++tmLn.curFrame;
+    for (i=0; i<tmLn.length; i++) {
+      sprite = tmLn[i];
+      if (sprite.charAt(0) == 's') {
+        if (sprite.obj) {
+          numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+          if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+            keyFrm=1;
+            for (j=0; j<sprite.values.length; j++) {
+              props = sprite.values[j]; 
+              if (numKeyFr != props.length) {
+                if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+                else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+              } else {
+                while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+                if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+                  if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+                  else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+        } } } } }
+      } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+      if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+  } }
+}
+
+function MM_initTimelines() { //v4.0
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    var ns4 = (ns && parseInt(navigator.appVersion) == 4);
+    var ns5 = (ns && parseInt(navigator.appVersion) > 4);
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(1);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 15;
+    document.MM_Time[0][0] = new String("sprite");
+    document.MM_Time[0][0].slot = 1;
+    if (ns4)
+        document.MM_Time[0][0].obj = document["Layer1"];
+    else if (ns5)
+        document.MM_Time[0][0].obj = document.getElementById("Layer1");
+    else
+        document.MM_Time[0][0].obj = document.all ? document.all["Layer1"] : null;
+    document.MM_Time[0][0].keyFrames = new Array(1, 240);
+    document.MM_Time[0][0].values = new Array(5);
+    if (ns5)
+        document.MM_Time[0][0].values[0] = new Array("473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "473px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px", "474px");
+    else
+        document.MM_Time[0][0].values[0] = new Array(473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474,474);
+    document.MM_Time[0][0].values[0].prop = "left";
+    if (ns5)
+        document.MM_Time[0][0].values[1] = new Array("528px", "526px", "525px", "523px", "521px", "519px", "518px", "516px", "514px", "512px", "511px", "509px", "507px", "505px", "504px", "502px", "500px", "499px", "497px", "495px", "493px", "492px", "490px", "488px", "486px", "485px", "483px", "481px", "479px", "478px", "476px", "474px", "473px", "471px", "469px", "467px", "466px", "464px", "462px", "460px", "459px", "457px", "455px", "454px", "452px", "450px", "448px", "447px", "445px", "443px", "441px", "440px", "438px", "436px", "434px", "433px", "431px", "429px", "428px", "426px", "424px", "422px", "421px", "419px", "417px", "415px", "414px", "412px", "410px", "408px", "407px", "405px", "403px", "402px", "400px", "398px", "396px", "395px", "393px", "391px", "389px", "388px", "386px", "384px", "382px", "381px", "379px", "377px", "376px", "374px", "372px", "370px", "369px", "367px", "365px", "363px", "362px", "360px", "358px", "357px", "355px", "353px", "351px", "350px", "348px", "346px", "344px", "343px", "341px", "339px", "337px", "336px", "334px", "332px", "331px", "329px", "327px", "325px", "324px", "322px", "320px", "318px", "317px", "315px", "313px", "311px", "310px", "308px", "306px", "305px", "303px", "301px", "299px", "298px", "296px", "294px", "292px", "291px", "289px", "287px", "285px", "284px", "282px", "280px", "279px", "277px", "275px", "273px", "272px", "270px", "268px", "266px", "265px", "263px", "261px", "260px", "258px", "256px", "254px", "253px", "251px", "249px", "247px", "246px", "244px", "242px", "240px", "239px", "237px", "235px", "234px", "232px", "230px", "228px", "227px", "225px", "223px", "221px", "220px", "218px", "216px", "214px", "213px", "211px", "209px", "208px", "206px", "204px", "202px", "201px", "199px", "197px", "195px", "194px", "192px", "190px", "188px", "187px", "185px", "183px", "182px", "180px", "178px", "176px", "175px", "173px", "171px", "169px", "168px", "166px", "164px", "163px", "161px", "159px", "157px", "156px", "154px", "152px", "150px", "149px", "147px", "145px", "143px", "142px", "140px", "138px", "137px", "135px", "133px", "131px", "130px", "128px", "126px", "124px", "123px", "121px", "119px", "117px", "116px", "114px");
+    else
+        document.MM_Time[0][0].values[1] = new Array(528,526,525,523,521,519,518,516,514,512,511,509,507,505,504,502,500,499,497,495,493,492,490,488,486,485,483,481,479,478,476,474,473,471,469,467,466,464,462,460,459,457,455,454,452,450,448,447,445,443,441,440,438,436,434,433,431,429,428,426,424,422,421,419,417,415,414,412,410,408,407,405,403,402,400,398,396,395,393,391,389,388,386,384,382,381,379,377,376,374,372,370,369,367,365,363,362,360,358,357,355,353,351,350,348,346,344,343,341,339,337,336,334,332,331,329,327,325,324,322,320,318,317,315,313,311,310,308,306,305,303,301,299,298,296,294,292,291,289,287,285,284,282,280,279,277,275,273,272,270,268,266,265,263,261,260,258,256,254,253,251,249,247,246,244,242,240,239,237,235,234,232,230,228,227,225,223,221,220,218,216,214,213,211,209,208,206,204,202,201,199,197,195,194,192,190,188,187,185,183,182,180,178,176,175,173,171,169,168,166,164,163,161,159,157,156,154,152,150,149,147,145,143,142,140,138,137,135,133,131,130,128,126,124,123,121,119,117,116,114);
+    document.MM_Time[0][0].values[1].prop = "top";
+    if (!ns4) {
+        document.MM_Time[0][0].values[0].prop2 = "style";
+        document.MM_Time[0][0].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][0].values[2] = new Array("visible","inherit");
+    document.MM_Time[0][0].values[2].prop = "visibility";
+    if (!ns4)
+        document.MM_Time[0][0].values[2].prop2 = "style";
+    if (ns5)
+        document.MM_Time[0][0].values[3] = new Array("221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "221px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "222px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "223px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "224px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "225px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "226px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "227px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "228px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "229px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "230px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "231px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "232px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "233px", "234px");
+    else
+        document.MM_Time[0][0].values[3] = new Array(221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,221,222,222,222,222,222,222,222,222,222,222,222,222,222,222,222,222,222,222,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,224,224,224,224,224,224,224,224,224,224,224,224,224,224,224,224,224,224,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,228,228,228,228,228,228,228,228,228,228,228,228,228,228,228,228,228,228,228,229,229,229,229,229,229,229,229,229,229,229,229,229,229,229,229,229,229,230,230,230,230,230,230,230,230,230,230,230,230,230,230,230,230,230,230,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,233,233,233,233,233,233,233,233,233,233,233,233,233,233,233,233,233,233,234);
+    document.MM_Time[0][0].values[3].prop = "width";
+    if (!ns4)
+        document.MM_Time[0][0].values[3].prop2 = "style";
+    if (ns5)
+        document.MM_Time[0][0].values[4] = new Array("242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "242px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "243px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "244px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "245px", "246px");
+    else
+        document.MM_Time[0][0].values[4] = new Array(242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,242,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,246);
+    document.MM_Time[0][0].values[4].prop = "height";
+    if (!ns4)
+        document.MM_Time[0][0].values[4].prop2 = "style";
+    document.MM_Time[0].lastFrame = 240;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+</script>
+<bgsound src="images/riverside.mid" loop="-1">
+</head>
+
+<body background="57.gif" onLoad="MM_timelinePlay('Timeline1')" topmargin="0">
+<div id="Layer1" style="position:absolute; left:473px; top:528px; width:221px; height:242px; z-index:1; visibility: visible;"> 
+  <font color="#FFFFFF" size="3" face="標楷體">日頭將要沉落西，水面染五彩<br>
+  男女老幼塊等待，漁船倒退來 <br>
+  桃色樓窗門半開，琴聲訴悲哀<br>
+  啊……幽怨的，心情無人知。 <br>
+  <br>
+  矇隴月色白光線，浮出紗帽山<br>
+  河流水影色變換，海風陣陣寒 <br>
+  一隻小鳥找無伴，歇在船頭岸<br>
+  啊……美妙的，啼叫動心肝。 <br>
+  <br>
+  淡水黃昏帶詩意，夜霧罩四邊<br>
+  教堂鐘聲心空虛，響對海面去 <br>
+  埔頂燈光真稀微，閃閃像天星　<br>
+  啊.難忘的，情景引心悲。</font><font color="#FFFFFF" face="標楷體"> </font> <font color="#0000FF"><br>
+　</font></div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="683" id="AutoNumber1" height="503">
+    <tr>
+        <td height="475" width="683"> <a href="1.htm"><img border="0" src="main.jpg" width="700" height="475"></a></td>
+    </tr>
+    <tr>
+      <td height="28" width="683">
+      <marquee style="color: #008000; font-family: 標楷體; font-size: 14 pt; font-weight: bold">我們研究的結果願意與你一同分享</marquee><br>
+　</td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>
